@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,700;0,900;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login</title>
+  </head>
+  <body>
+    <main>
+      <div class="login-container" id="login-container">
+        <div class="form-container">
+          <form class="form form-login">
+            <h2 class="form-title">Entrar com</h2>
+            <div class="form-social">
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-google"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </div>
+            <p class="form-text">ou utilize sua conta</p>
+            <div class="form-inputs">
+              <input
+                type="email"
+                class="form-input"
+                placeholder="Email"
+                required
+              />
+              <input
+                type="password"
+                class="form-input"
+                placeholder="Senha"
+                required
+              />
+            </div>
+            <a href="#" class="from-link">Esqueceu a senha?</a>
+            <button class="form-button">Logar</button>
+            <p class="mobile-text">
+              Não tem conta?
+              <a href="#" id="open-register-mobile">Registre-se</a>
+            </p>
+          </form>
+          <form class="form form-cadastro">
+            <h2 class="form-title">Criar conta</h2>
+            <div class="form-social">
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-google"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </div>
+            <p class="form-text">Ou cadastre seu email</p>
+            <div class="form-inputs">
+              <input
+                type="text"
+                class="form-input"
+                placeholder="Nome"
+                required
+              />
+              <input
+                type="email"
+                class="form-input"
+                placeholder="Email"
+                required
+              />
+              <input
+                type="password"
+                class="form-input"
+                placeholder="Senha"
+                required
+              />
+            </div>
+            <button class="form-button">Cadastrar</button>
+            <p class="mobile-text">
+              Já tem conta? <a href="#" id="open-login-mobile">Login</a>
+            </p>
+          </form>
+        </div>
+        <div class="overlay-container">
+          <div class="overlay">
+            <h2 class="form-title light">Já tem conta?</h2>
+            <p class="form-text light">
+              Para entrar na nossa plataforma faça login com suas informações
+            </p>
+            <button type="button" class="form-button light-btn" id="open-login">
+              ENTRAR
+            </button>
+          </div>
+          <div class="overlay">
+            <h2 class="form-title light">Olá Aluno!</h2>
+            <p class="form-text light">
+              Cadastre-se e comece a usar a nossa plataforma on-line
+            </p>
+            <button
+              type="button"
+              class="form-button light-btn"
+              id="open-register"
+            >
+              Cadastrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/d6ca70f7e5.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
